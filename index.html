@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
     <title>MI ATELIER</title>
+    <link rel="stylesheet" href="styles.css " />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="logo">MI.</div>
       <nav>
         <ul class="menu">
@@ -18,19 +21,28 @@
           <li><a href="#contact">contact</a></li>
         </ul>
       </nav>
-      <h1>MI ATELIER.</h1>
     </header>
+    <h1>MI ATELIER.</h1>
     <section class="main-page">
-      <h6>
-        Design atelier for individual tailoring of high-quality and functional
-        clothes. we are specialized in the art of fashion and create in
-        collaboration with you
-      </h6>
-      <button>book a call</button>
+      <div class="container-main-page">
+        <p class="main-page-content">
+          Design atelier for individual tailoring of high-quality and functional
+          clothes. we are specialized in the art of fashion and create in
+          collaboration with you
+        </p>
+        <img
+          class="photo-main-page"
+          src="media/header.png"
+          alt="header-photo"
+        />
+        <button class="btn-main-page">BOOK A FITTING</button>
+      </div>
     </section>
     <section id="services">
+      <hr />
       <h2>SERVICES.</h2>
-      <ul class="list-services">
+      <hr />
+      <ul class="service-list">
         <li class="service-item">
           <img src="media/services1.png" alt="services1" /> <br />
           designer men's suits handmade premium class
@@ -68,7 +80,9 @@
       </ul>
     </section>
     <section id="about">
+      <hr />
       <h2>ABOUT US.</h2>
+      <hr />
       <img src="media/aboutUs.jpg" alt="about.us" />
       <p>
         our atelier offers tailoring and repair of all types of clothing, both
@@ -97,8 +111,9 @@
       </div>
     </section>
     <section id="process">
+      <hr />
       <h2>PROCESSS.</h2>
-
+      <hr />
       <table>
         <tr>
           <td>First Step</td>
@@ -124,9 +139,9 @@
           <td>One week</td>
           <td>
             At the third meeting, the first fitting and fitting of the product
-            to the figure takes place; we discuss your impressions and wishes.
-            After approval, we transfer the product to the technologist for
-            sewing.
+            to the figure takes place&semi; we discuss your impressions and
+            wishes. After approval, we transfer the product to the technologist
+            for sewing.
           </td>
         </tr>
         <tr>
@@ -141,7 +156,9 @@
       </table>
     </section>
     <section class="clients">
+      <hr />
       <h2>CLIENTS.</h2>
+      <hr />
       <ul>
         <li>cosmopolitan. elle. l’officiel.</li>
         <li>bazar. dorcel. star media.</li>
@@ -149,7 +166,9 @@
       </ul>
     </section>
     <section class="reviews">
+      <hr />
       <h2>REVIEWS.</h2>
+      <hr />
       <img src="media/reviews.png" alt="photo" />
       <p>
         Our organization required urgent sewing of clothing in bulk, it was a
@@ -160,7 +179,9 @@
       </p>
     </section>
     <section id="contact">
+      <hr />
       <h2>GET IN TOUCH.</h2>
+      <hr />
       <div class="book-a-fitting">Book an onsite fitting</div>
       <form action="book">
         <label>name:</label>
